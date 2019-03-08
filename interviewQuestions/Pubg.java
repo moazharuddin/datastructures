@@ -11,19 +11,6 @@ public class Pubg {
 		
 		char[] arr = {'P','Z', 'P', 'Z', 'Z', 'Z', 'P', 'P', 'P'};
 		
-		
-		List<Long> ll = new ArrayList<Long>();
-		Long n=10L;
-		
-		ll.add(33L);
-		ll.add(44L);
-		
-		System.out.println(ll.stream().filter(x -> {
-			Long xx = 44L;
-			return x.equals(xx);
-			}).collect(Collectors.toList()));
-		
-		
 		int result =0;
 		int range = 0;
 		
